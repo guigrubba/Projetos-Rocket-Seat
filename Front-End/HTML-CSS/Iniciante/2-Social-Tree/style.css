@@ -22,10 +22,10 @@ p{
 }
 
 li{
-    width: 50%;
-    height: 30%;
+    width: 30%;
+    height: 10%;
     list-style-type: none;
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
     border: 2px #BB99DD solid;
     padding: 1.5%;
     color: #BB99DD;
@@ -33,11 +33,11 @@ li{
 }
 
 #icons{
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 a{
-    margin-right: 4%;
+    margin-right: 2%;
 }
 
 
