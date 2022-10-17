@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    background: #FAF7FD;
+}
+
+#page{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+#perfil{
+    border-radius: 100rem;
+    border: 2px #BB99DD solid;
+    padding: 3px;
+}
+
+p{
+    color: #BB99DD;
+    margin-bottom: 3%;
+}
+
+li{
+    width: 50%;
+    height: 30%;
+    list-style-type: none;
+    margin-bottom: 1%;
+    border: 2px #BB99DD solid;
+    padding: 1.5%;
+    color: #BB99DD;
+    border-radius: 0.3rem;
+}
+
+#icons{
+    margin-top: 8%;
+}
+
+a{
+    margin-right: 4%;
+}
+
+
+
