@@ -1,0 +1,106 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+body{
+    margin: 0;
+
+    padding:0;
+
+    display: grid;
+    grid-template-areas:
+    "esquerdo direito";
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+}
+
+
+/* -------------------GRID da esquerda e da direita ------------------------------------*/
+#esquerdo{
+    background-color: #121214;
+    height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 4%;
+    padding-top: 6%;
+}
+
+#direito{
+    background: red;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*---------------------------------- Conteudo do lado esquerda ----------------------------------*/
+
+#logo{
+    width: 60%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+
+h1{
+    color: #04D361;
+    margin-top: 12vh;
+}
+
+#subtitulo{
+    color: #E1E1E6;
+}
+
+#texto{
+    color: #A8A8A8;
+}
+
+
+label{
+    display: block;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+    margin-top: 10vh;
+}
+
+
+#forms{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 2;
+}
+
+input{
+    margin: 0;
+    width: 55vw;
+    border: 0 none;
+    outline: 0;
+    height: 5vh;
+    font-size: 2vh;
+    border-left: solid #04D361 5px;
+}
+
+
+button{
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    width: 3vw;
+    background-color: #8257e5;
+}
+
+#imagem2{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
