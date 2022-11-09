@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+#receita{
+    background: #FFFFFF;
+    margin:30px 60px 60px 30px;
+    border-radius: 10px;
+}
+
+/*---------------------HEADER------------------------*/
+header{
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #1B1B1B;
+}
+
+img{
+    height:250px;
+    width: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+figcaption{
+    text-align: right;
+    padding-right: 5%;
+    color: #8F8F8F;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+/*-------------------MAIN----------------------------*/
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #1B1B1B;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+ol{
+    margin-bottom: 30px;
+}
+
+li{
+    margin-left: 7%;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+
+/*-----------------FOOTER-------------------*/
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
